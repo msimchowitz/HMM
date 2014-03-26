@@ -1,4 +1,3 @@
-
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -676,7 +675,6 @@ public class logHmm {
         }
         if (Math.abs(sum-1)<1)
             return true;
-        System.out.println("FUCK");
         return false;
     }
     
