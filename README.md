@@ -1,7 +1,7 @@
 HMM
 ===
 
-An (Almost-Correct) Implementation of an Auto-Regressive HMM
+This repo contains Problem Set 3 for Princeton COS 424 Interacting with Data, an (Almost-Correct) Implementation of an Auto-Regressive HMM. The graphs for problem set 3 can be viewed in color
 
 This repository contains a java implemention of an Auto-Regressive HMM: that is, x(t) ~ Normal(ax(t-1)+b,sigma^2), where the parameters a,b,sigma vary depending on the latent markov state. Though the likelihood decreases monotonically, numerical issues abound. Additionally, the model learns approximately the same transition probability i -> j for each state i.
 
